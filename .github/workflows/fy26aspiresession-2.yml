@@ -1,0 +1,15 @@
+# This workflow was automatically converted from Azure Pipelines
+# Conversion date: 2026-01-27 11:35:58 UTC
+# Please review and test before using in production
+
+name: FY26AspireSession (2)
+on:
+  push:
+    branches:
+    - main
+    - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
