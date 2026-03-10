@@ -1,0 +1,15 @@
+# This workflow was automatically converted from Azure Pipelines
+# Conversion date: 2026-03-10 20:51:57 UTC
+# Please review and test before using in production
+
+name: CI Pipeline Dummy 1
+on:
+  push:
+    branches:
+    - main
+    - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
